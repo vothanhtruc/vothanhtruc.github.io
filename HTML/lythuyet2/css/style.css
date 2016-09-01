@@ -1,0 +1,76 @@
+﻿@charset"utf-8";
+body{
+	margin:0;
+	font: 15px "Times New Roman";
+}
+
+div#bground{
+	width:500px;
+	border: 1px solid #d3d2cf;
+	margin: 5px;
+}
+
+div#player_profile{
+	Background: url("../img/title_bg.GIF") repeat-x top left;
+	Background-size: 30px 30px;
+}
+
+h3.title{
+	margin-top: 2px;
+	margin-bottom: 1px;
+}
+
+img#avatar{
+	margin-right: 8px;
+	width: 90px;
+	height: 100px;
+	float: left;
+}
+
+div#player_profile_text{
+	overflow: scroll;
+	margin-bottom: 10px;
+	margin-right: 3px;
+	margin-top: 7px;
+	height: 100px;	
+}
+
+p#profile{
+	font-size:16px;
+	margin: 0;
+}
+
+div#facts{
+	margin-bottom: 40px;
+}
+
+
+ul#list{
+	padding-left: 36px;
+	margin-top: 10px;
+	list-style: inside;
+	list-style-image: url('../img/start.GIF')
+}
+
+div.comment{
+
+}
+
+p.comment_text{
+	background-color: #ececec;
+	margin: 0;
+	margin-left: 2px;
+	margin-right: 2px;
+	padding: 5px;
+}
+
+p.comment_poster{
+	background: url("../img/comment_bg.GIF") no-repeat 15px top;
+	background-size: 30px 15px;
+	margin: 0;
+	padding-left: 50px;
+}
+
+a.link_poster{
+	text-decoration: none;
+}
