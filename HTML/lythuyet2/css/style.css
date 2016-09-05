@@ -11,8 +11,8 @@ div#bground{
 }
 
 div#player_profile{
-	Background: url("../img/title_bg.GIF") repeat-x top left;
-	Background-size: 30px 30px;
+	background: url("../img/title_bg.GIF") repeat-x top left;
+	background-size: 30px 30px;
 }
 
 h3.title{
@@ -49,18 +49,12 @@ ul#list{
 	padding-left: 36px;
 	margin-top: 10px;
 	list-style: inside;
-	list-style-image: url('../img/start.GIF')
-}
-
-div.comment{
-
+	list-style-image: url('../img/start.GIF');
 }
 
 p.comment_text{
 	background-color: #ececec;
-	margin: 0;
-	margin-left: 2px;
-	margin-right: 2px;
+	margin: 0 2px;
 	padding: 5px;
 }
 
