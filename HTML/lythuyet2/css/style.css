@@ -74,3 +74,26 @@ p.comment_poster{
 a.link_poster{
 	text-decoration: none;
 }
+
+div#your_cmt{
+	margin-top: 20px;
+}
+
+table#your_cmt_form{
+	width: 100%;
+	margin-left: 2px;
+}
+
+td.title_items{
+	width: 105px;
+}
+
+input.input_items{
+	width: 145px;
+}
+
+textarea#comment_input{
+	width: 374px;
+	height: 70px;
+  	resize: none;
+}
