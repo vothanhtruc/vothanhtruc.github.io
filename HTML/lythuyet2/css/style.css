@@ -73,11 +73,15 @@ div#your_cmt{
 table#your_cmt_form{
 	width: 100%;
 	margin-left: 2px;
-	vertical-align: middle;
 }
 
 td.title_items{
 	width: 105px;
+	vertical-align: middle;
+}
+
+td.info_comment{
+	vertical-align: middle;
 }
 
 input.input_items{
