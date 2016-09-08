@@ -1,6 +1,5 @@
 ﻿@charset"utf-8";
 body{
-	margin:0;
 	font: 15px "Times New Roman";
 }
 
@@ -11,11 +10,13 @@ div#bground{
 }
 
 div#player_profile{
-	background: url("../img/title_bg.GIF") repeat-x top left;
+	background: url("../img/title_bg.gif") repeat-x top left;
 	background-size: 30px 30px;
 }
 
 h3.title{
+	font-weight: bold;
+	font-size: 17px;
 	margin-top: 2px;
 	margin-bottom: 1px;
 }
@@ -29,15 +30,12 @@ img#avatar{
 
 div#player_profile_text{
 	overflow: scroll;
-	margin-bottom: 10px;
-	margin-right: 3px;
-	margin-top: 7px;
+	margin: 0 3px 10px 7px;
 	height: 100px;	
 }
 
 p#profile{
 	font-size:16px;
-	margin: 0;
 }
 
 div#facts{
@@ -49,7 +47,7 @@ ul#list{
 	padding-left: 36px;
 	margin-top: 10px;
 	list-style: inside;
-	list-style-image: url('../img/start.GIF');
+	list-style-image: url('../img/start.gif');
 }
 
 p.comment_text{
@@ -59,9 +57,8 @@ p.comment_text{
 }
 
 p.comment_poster{
-	background: url("../img/comment_bg.GIF") no-repeat 15px top;
+	background: url("../img/comment_bg.gif") no-repeat 15px top;
 	background-size: 30px 15px;
-	margin: 0;
 	padding-left: 50px;
 }
 
@@ -76,6 +73,7 @@ div#your_cmt{
 table#your_cmt_form{
 	width: 100%;
 	margin-left: 2px;
+	vertical-align: middle;
 }
 
 td.title_items{
@@ -87,7 +85,7 @@ input.input_items{
 }
 
 textarea#comment_input{
-	width: 374px;
+	width: 383px;
 	height: 70px;
   	resize: none;
 }

@@ -1,6 +1,5 @@
 ﻿@charset "UTF-8";
 body{
-	margin: 0;
 	font: 11px "Arial";
 }
 div#bground{
@@ -11,9 +10,8 @@ div#bground{
 
 h3.title{
 	font-size: 12px;
+	font-weight: bold;
 	margin-left: 8px;
-	margin-bottom: 0;
-	margin-top: 0;
 	padding-top: 5px;
 }
 
@@ -21,16 +19,11 @@ div.frame{
 	background-color: white;
 	border-top: 2px solid #ffa500;
 	margin: 0 8px;
-	height: 170px;
 }
 
 div#text{
 	padding: 5px 15px 0 0;
 	height: 70px;
-}
-
-p#blogroll_text{
-	margin: 0;		
 }
 
 img#blogroll{
@@ -43,15 +36,12 @@ img#blogroll{
 }
 
 h3.nerve{
-	font-size: 11px;
-	margin: 0;
 	padding-left: 20px;
 	color: #0a6395;
 }
 
 ul#list{
-	list-style-type: none;	
-	padding-left: 0;
+	padding: 10px 0 1px;
 }
 
 ul li{
@@ -70,7 +60,7 @@ a.link{
 }
 
 div#libra{
-	margin-top: 25px;
+	margin: 25px 0 15px;
 }
 
 img#img_libra{
@@ -80,12 +70,12 @@ img#img_libra{
 	margin: 0 12px 30px 10px;
 }
 
-h3#libra_title{
-	margin-bottom: 0;
+h3#libra_title {
+	font-weight: bold;
 }
 
 p#time{
-	margin-top: 0;
+	margin-bottom: 10px;
 	color: #808080;
 }
 
@@ -94,33 +84,32 @@ a#link_libra{
 }
 
 div#jonathan{
-	background: url("../Img/LT3.JPG") no-repeat right bottom;
+	background: url("../img/jonathan.jpg") no-repeat right bottom;
 	background-size: 65px 45px;
 	background-color: #F4F3EE;
 	height: 45px;
 }
 
 p#jonathan_text{
-	margin: 0 20px;
+	margin-left: 20px;
 	padding-top: 10px;
 }
 
 a.title_blue{
-	font-size: 11px;
 	text-decoration: none;
 	font-weight: bold;
-	margin: 0 20px;
+	margin-left: 20px;
 	color: #0a6395;
 }
 
 h3#title_mobile{
 	font-size: 12px;
-	margin: 40px 0 0 8px;
-	padding-top: 5px;
+	margin: 20px 0 0 8px;
+	font-weight: bold;
 }
 
 div#mobile_frame{
-	background: url("../Img/LT4.JPG") no-repeat right bottom;
+	background: url("../img/mobile.jpg") no-repeat right bottom;
 	background-size: 110px 110px;
 	background-color: white;
 	border-top: 2px solid #ffa500;
@@ -129,7 +118,7 @@ div#mobile_frame{
 }
 
 p#mobile_text{
-	padding: 0 125px 0 20px;
+	padding: 30px 110px 5px 20px;
 }
 
 div#competitions_frame{
@@ -138,8 +127,7 @@ div#competitions_frame{
 }
 
 h3#competitions_title{
-	font-size: 11px;
-	margin: 0;
+	font-weight: bold;
 	padding-top: 5px;
 }
 

@@ -4,12 +4,13 @@ body {
 	font-family: arial;
 	font-size: 11px;
 	letter-spacing: 0.2px;
-	background: url("../img/right_bot.gif") ;
+	background: url("../img/background.gif") ;
 	background-size: 2px 2px;
 }
 header {
 	height: 370px;
-	background: url("../img/logo.jpg") no-repeat 27px 57px, url("../img/fill_header.jpg") no-repeat top left;
+	background: url("../img/logo.jpg") no-repeat 27px 57px, 
+		  url("../img/fill_header.jpg") no-repeat top left;
 	background-size: 381px 125px, 1600px 370px;
 }
 h5#logo{
