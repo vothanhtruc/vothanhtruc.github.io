@@ -9,8 +9,7 @@ body {
 }
 header {
 	height: 370px;
-	background: url("../img/logo.jpg") no-repeat 27px 57px, 
-		  url("../img/fill_header.jpg") no-repeat top left;
+	background: url("../img/logo.jpg") no-repeat 27px 57px, url("../img/fill_header.jpg") no-repeat top left;
 	background-size: 381px 125px, 1600px 370px;
 }
 h5#logo{
@@ -74,7 +73,7 @@ nav#form_link_other{
 	border-top: 0.1px solid #404040;
 	padding: 25px 0 0 30px;
 }
-ul#list_link{
+ul.list_link{
 	list-style-image: url('../img/arr.gif');
 }
 a.link_other{
@@ -85,20 +84,19 @@ div#content{
 	float: left;
 	margin-top: 65px;
 }
-img.content_img_big{
+img.content_img{
 	width: 400px;
 	height: 135px;
 }
-img.content_img_small{
-	padding: 17px;
+div.content_other{
+	margin: 17px 0 0 17px;
 }
 p.content_text{
-	margin: 0 0 17px 17px;
-	padding: 0 5px 17px 0;
+	margin-bottom: 17px;
+	padding: 17px 5px 17px 0;
 	border-bottom: 1px dotted #404040;
 }
 a.launch_web{
-	margin-left: 17px;
 	color: white;
 	text-decoration: none;
 }
