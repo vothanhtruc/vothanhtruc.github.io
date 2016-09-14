@@ -1,4 +1,54 @@
 ﻿@charset"UTF-8";
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*style thuchanh de 3*/
 body {
 	color: grey;
 	font-family: arial;
@@ -10,9 +60,9 @@ body {
 header {
 	height: 370px;
 	background: url("../img/logo.jpg") no-repeat 27px 57px, url("../img/fill_header.jpg") no-repeat top left;
-	background-size: 381px 125px, 1600px 370px;
+	background-size: 381px 125px, 1600px 370px;\
 }
-h5#logo{
+h5.logo{
 	font-weight: bold;
 	color: black;
 	font-size: 40px;
@@ -34,23 +84,23 @@ a.menu_items_text{
 	color: white;
 	font-size: 22px;
 }
-img#menu_home{
+img.menu_home{
 	width: 150px;
 	height:  91px;
 }
-img#menu_folder{
+img.menu_folder{
 	width: 145px;
 	height:  91px;
 }
-img#menu_desk{
+img.menu_desk{
 	width: 130px;
 	height:  91px;
 }
-img#menu_chair{
+img.menu_chair{
 	width: 138px;
 	height:  91px;
 }
-img#menu_top{
+img.menu_top{
 	width: 150px;
 	height:  91px;
 }
@@ -114,6 +164,90 @@ footer{
 	padding: 25px 0 0 10px;
 	font-size: 10px;
 }
-span#underline{
+span.underline{
 	text-decoration: underline;
+}
+
+/*style additional lythyet de 3*/
+section{
+	float: left;
+	width: 410px;
+	margin: 38px 0 0 65px;
+}
+h2.title_exam{
+	padding-bottom: 42px;
+}
+img.people{
+	width: 135px;
+	height: 90px;
+	float: left;
+	padding: 0 25px 30px 0;
+}
+h3.title{
+	color: white;
+}
+p.note_text{
+	padding-top: 20px;
+	line-height: 1.2;
+}
+div#block_bottom{
+	margin-left: 17px;
+}
+p.note_ps{
+	border-bottom: 1px dotted #404040;
+	padding-bottom: 15px;
+	margin-bottom: 15px;
+}
+div#note_bottom{
+	margin: 87px 0 0 17px;
+}
+div#form_link{
+	border-bottom: 1px dotted #404040;
+	margin-bottom: 15px;
+}
+nav.form_link_list1{
+	display: inline-block;
+	letter-spacing: -0.5px;
+	line-height: 2;
+	padding: 20px 7px 15px 9px;
+	width: 45%;
+}
+nav.form_link_list2{
+	display: inline-block;
+	letter-spacing: -0.5px;
+	line-height: 2;
+	width: 50%;
+}
+aside#form_e{
+	float: left;
+	background-color: #1F1F1F;
+	width: 250px;
+	margin: 20px 0 0 30px;
+}
+div#word_e{
+	text-align: center;
+	border-top: 1px solid #404040;
+	margin: 75px 20px 20px;
+	padding-top: 30px;
+}
+img.img_word_e{
+	width: 190px;
+	height: 100px;
+}
+div#note_word_e{
+	margin: 0 0 40px 32px;
+}
+p.e_bottom{
+	margin-top: 6px;
+}
+p.background_e{
+	margin-bottom: 6px;
+	font-size: 13px;
+}
+span.aenean{
+	color: white;
+}
+p.more_info{
+	font-size: 13px;
+	margin-bottom: 40px;
 }
