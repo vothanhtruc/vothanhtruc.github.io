@@ -1,0 +1,272 @@
+﻿@charset"UTF-8";
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*style thuchanh*/
+body{
+	background-color: #292728;
+	color: grey;
+	font-family: arial;
+	font-size: 10px;
+	letter-spacing: -1px;
+}
+div#confidential{
+	background: url("../img/confidential_heading_bg.gif") repeat-x top left,
+		  url("../img/confidential_logo.gif") no-repeat 5px bottom;
+	background-size: 5px 20px, 400px 20px;
+	background-color: white;
+	height: 245px;
+	width: 530px;
+	margin: 20px 20px 10px 2px;
+	float: left;
+}
+article#russell_form{
+	background: url("../img/confidential_showbuzz_bg.gif") no-repeat 5px 155px;
+	background-size: 253px 19px;
+	float: left;
+	width: 250px;
+	padding: 0 7px;
+	border-right: 1px dotted #ccccb3;	
+}
+article#beckham_form{
+	background: url("../img/confidential_shootingstars_bg.gif") no-repeat 5px 155px;
+	background-size: 253px 19px;
+	float: left;
+	width: 250px;
+	padding: 0 7px;
+}
+h3.title_russell{
+	font-size: 12px;
+	color: white;
+	padding: 4px 0;
+	width: 257px;
+	font-weight: bold;
+	letter-spacing: 0;
+	border-right: 1px solid black;
+}
+h3.title_david{
+	font-size: 12px;
+	color: white;
+	padding: 4px 0;
+	width: 257px;
+	font-weight: bold;
+	letter-spacing: 0;
+}
+img.daily_img{
+	padding: 5px 0 3px;
+	width: 250px;
+	height: 125px;
+}
+a.link_more{
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	letter-spacing: 0;
+	padding-left: 203px;
+}
+h5.title_small_daily{
+	padding: 15px 0 5px;
+	font-weight: bold;
+}
+div#entertainment_form{
+	margin: 20px 0;
+	float: left;
+}
+img.entertainment{
+	width: 180px;
+	height: 30px;
+	margin-bottom: 10px;
+}
+input.search_text{
+	margin: 0 1px 0 13px;
+	width: 110px;
+	height: 10px;
+}
+input.search_button{
+	background: url('../img/search.jpg') repeat-x 0 0;
+	height: 13px;
+	font-size: 8px;
+	color: white;
+	padding: 1px 5px;
+	border: none;
+	vertical-align: text-bottom;
+}
+article.frame_top_3_movie{
+	background: url("../img/top_movie_trailers_bg.gif") repeat-x top left;
+	background-size: 5px 20px;
+	background-color: white;
+	clear: left;
+	float: left;
+	width: 255px;
+	margin: 0px 15px 0px 5px;
+}
+h3.title_movie{
+	color: white;
+	font-size: 12.5px;
+	font-family: cursive;
+	font-weight: bold;
+	letter-spacing: 0.5px;
+	padding: 4px 5px;
+}
+section{
+	background: url("../img/top_movie_trailers_bg.gif") repeat-x top left;
+	background-size: 5px 20px;
+	background-color: white;
+	float: left;
+	width: 257px;
+	margin-bottom: 30px;
+}
+article.movie_top{
+	border-bottom: 1px dotted #ccccb3;
+	padding: 7px 10px 7px 7px;
+}
+h5.name_of_movie{
+	color: #2781B6;
+	font-size: 13px;
+	font-family: serif;
+	font-weight: bold;
+	padding-bottom: 5px;
+	float: left;
+}
+img.rating_eye{
+	height: 15px;
+	width: 50px;
+	background: url(../img/topic_star_ratings.gif) 0 -54px;
+	background-size: 50px 130px;
+	float: left;
+	margin: 0 0 3px 140px;
+}
+img.img_movie_review{
+	width: 80px;
+	float: left;
+	margin-right: 5px;
+}
+p.content_of_movie{
+	line-height: 1.2;
+	margin-bottom: 6px;
+}
+a.link_of_view_trailer{
+	text-decoration: none;
+	color: #2781B6;
+	font-weight: bold;
+	vertical-align: super;
+}
+img.img_of_view_trailer{
+	width: 13px;
+	height: 16px;
+	background: url(../img/entertainment-icons.gif) 0px -87px;
+	background-size: 30px 970px;
+	margin-top: 5px;
+}
+article.movie_bottom{
+	padding: 7px 10px 0 7px;
+}
+img.rating_house{
+	height: 15px;
+	width: 50px;
+	background: url(../img/topic_star_ratings.gif) 0 -40px;
+	background-size: 50px 130px;
+	float: left;
+	margin: 0 0 3px 125px;
+}
+div#frame_of_more_movie{
+	border-top: 1px dotted #ccccb3;
+	margin-top: 5px;
+}
+img.clock{
+	width: 13px;
+	height: 16px;
+	background: url(../img/entertainment-icons.gif) 0px -166px;
+	background-size: 35px 970px;
+	margin-top: 2px;
+}
+a.link_of_more_movie{
+	text-decoration: none;
+	color: grey;
+	vertical-align: super;
+	margin-left: 69px;
+}
+nav{
+	clear: left;
+	border-top: 1px dashed white;
+	padding-bottom: 10px;
+}
+table{
+	margin-top: 10px;
+	width: 60%;
+}
+td{
+	vertical-align: middle;
+	text-align: center;
+	width: 80px;
+}
+a.menu_title{
+	text-decoration: none;
+	color: white;
+}
+footer{
+	background-color: white;
+	height: 74px;
+}
+p.menu_footer{
+	    padding: 7px 100px;
+}
+a.link_footer{
+	text-decoration: none;
+	color: #2781B6;
+}
+a.link_back_to_top{
+	padding-left: 80px;
+	text-decoration: none;
+	color: #2781B6;
+}
+p.copy{
+	color: #2781B6;
+	padding: 0 280px;
+}
