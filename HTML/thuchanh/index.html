@@ -4,6 +4,7 @@
 	<meta charset="UTF-8" />
 	<title>Bài thực hành</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<script type="text/javascript" src="javascript/function.js"></script>
 </head>
 <body>
 	<div id="confidential">
@@ -18,7 +19,7 @@
 			<h3 class="title_david">DAILY CELEBRITY PICS</h3>
 			<img class="daily_img" src="img/beckham.jpg" alt="beckham" />
 			<a class="link_more" href="#">MORE</a>
-			<h5 class="title_small_daily">+ BECKHAMS, CLAUDIA SCHIFFER</H5>
+			<h5 class="title_small_daily">+ BECKHAMS, CLAUDIA SCHIFFER</h5>
 			<p>VICTORIA and David Beckham dine out in NY, as top models Claudia Schiffer and Eva Herzigova hit the shops on Milan.</p>
 		</article>
 	</div>
@@ -29,12 +30,46 @@
 	</div>
 	<article class="frame_top_3_movie">
 		<h3 class="title_movie">TOP 3 MOVIE TRAILERS</h3>
-		<h5>The House Bunny (M)</h5>
-		<div></div>
-		<h5>Eagle Eye (M)</h5>
-		<div></div>
-		<h5>Journey To The Centre Of The Earth (PG)</h5>
-		<div></div>
+		<div class="frame_title_movie_trailer" onclick="showHouseBunny();">
+			<h5 class="title_movie_trailer">The House Bunny (M)</h5>
+			<img class="img_bunny_hourse_more" id="icon_house_bunny" src="img/trans.png" alt="house_bunny_more" />
+		</div> 
+		<div class="frame_content_movie_trailer" id="content_house_bunny">
+			<img class="img_content_movie_trailer" src="img/the_house_bunny.jpg" alt="house_bunny" />
+			<p class="content_movie_trailer">When Playboy bunny Shelly is tossed out of the mansion, she falls in with the sorority girls from Zeta Alpha Zeta.</p>
+			<img class="img_of_view_trailer" src="img/trans.png" alt="image_view_trailer" />
+			<a class="link_of_view_trailer" href="#">Watch Now</a>
+		</div>
+		<div class="frame_title_movie_trailer" onclick="showEagleEye();">
+			<h5 class="title_movie_trailer">Eagle Eye (M)</h5>
+			<img class="img_eagle_eye_more" id="icon_eagle_eye" src="img/trans.png" alt="house_bunny_more" />
+		</div>
+		<div class="frame_content_movie_trailer" id="content_eagle_eye">
+			<img class="img_content_movie_trailer" src="img/the_house_bunny.jpg" alt="house_bunny" />
+			<p class="content_movie_trailer">When Playboy bunny Shelly is tossed out of the mansion, she falls in with the sorority girls from Zeta Alpha Zeta.</p>
+			<img class="img_of_view_trailer" src="img/trans.png" alt="image_view_trailer" />
+			<a class="link_of_view_trailer" href="#">Watch Now</a>
+		</div>
+		<div class="frame_title_movie_trailer" onclick="showJourney();">
+			<h5 class="title_movie_trailer">Journey To The Centre Of The Earth (PG)</h5>
+			<img class="img_journey_more" id="icon_journey" src="img/trans.png" alt="house_bunny_more" />
+		</div>
+		<div class="frame_content_movie_trailer" id="content_journey">
+			<img class="img_content_movie_trailer" src="img/the_house_bunny.jpg" alt="house_bunny" />
+			<p class="content_movie_trailer">When Playboy bunny Shelly is tossed out of the mansion, she falls in with the sorority girls from Zeta Alpha Zeta.</p>
+			<img class="img_of_view_trailer" src="img/trans.png" alt="image_view_trailer" />
+			<a class="link_of_view_trailer" href="#">Watch Now</a>
+		</div>
+		<div class="frame_of_now_showing">
+			<img class="icon_now_showing" src="img/now_showing_icon.gif" alt="icon_now_showing" />
+			<p class="title_of_now_showing">Now Showing</p>
+			<select class="content_of_now_showing">
+ 				<option value="default">Select Movie</option>
+				<option value="house_bunny">The House Bunny</option>
+				<option value="eagle_eye">Eagle Eye</option>
+				<option value="journey">Journey To The Centre Of The Earth</option>
+			</select>
+		</div>
 	</article>
 	<section>
 		<h3 class="title_movie">MOVIE REVIEWS</h3>
