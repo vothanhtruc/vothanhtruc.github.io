@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+	<meta charset="UTF-8" />
+	<title>Game Monster</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+<body>
+	<div class="pause" onclick="pause()"></div>
+	<div class="boom" onclick="clickBoom()"><p id="num_boom" class="num_of_boom"></p></div>
+	<div class="reset_monster" onclick="resetGame()"></div>
+	<canvas id="frame-control"></canvas>
+	<canvas id="frame-play" onclick="catchMonster(event)"></canvas> 
+	<script type="text/javascript" src="javascript/function.js"></script>
+</body>
+</html>
