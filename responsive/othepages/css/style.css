@@ -1960,6 +1960,7 @@ h4.margin_top_depilation
 /*introduction*/
 .table_intro{
 	display: table;
+	width: 100%;
 }
 .table_item_intro{
 	display: table-cell;
@@ -1978,7 +1979,6 @@ h4.margin_top_depilation
 .feminine_intro{
 	text-align: left;
     float: left;
-    font-weight: bold;
     margin-left: 3%;
     width: 67%;
 }
@@ -2025,7 +2025,7 @@ h4.margin_top_depilation
 .p_content_1_facial{
 	margin-bottom: 20px;
 }
-.p_content_2_facial{
+.text_left_facial{
 	text-align: left;
 }
 .price_facial{
@@ -2044,4 +2044,87 @@ h4.margin_top_depilation
 }
 /*end facial*/
 
-/*slim*/
+/*depilation*/
+.font_red_depilation{
+	color: red;
+}
+.ul_depilation{
+	list-style-position: inside;
+	list-style-image: url("../images/h4.png");
+}
+/*end depilation*/
+
+/*bihda*/
+.img_bihda{
+	width: 40%;
+}
+.next_bihda{
+	display: inline;
+	width: 10%;
+	margin: 8% 5%;
+}
+.down_bihda{
+	display: none;
+}
+/*end bihda*/
+
+/*acty*/
+.p_content_1_acty{
+	text-align: left;
+    float: left;
+    margin: 15px 0 0 3%;
+    width: 97%;
+}
+.img_hairs_acty{
+	width: 80%;
+	margin: 0 10%;
+}
+.img_effect_acty{
+	width: 96%;
+	margin: 0 2%;
+}
+/*end acty*/
+
+/*hair_growth*/
+.button_2_hair_growth{
+    text-align: center;
+}
+/*end hair_growth*/
+
+/*case*/
+.margin_case{
+	margin: 0 5%;
+}
+.list_img_case{
+	overflow: auto;
+	width: 90%;
+	margin: 0 5% 5%;
+}
+.img_case{
+	width: 49%;
+    margin: 2% 2% 0 0;
+    float: left;
+}
+.img_case:nth-child(2n+0){
+    margin-right: 0;
+}
+/*end case*/
+
+/*qa*/
+.btn_qa{
+	margin-right: 5px;
+}
+.btn_qa:child{
+	margin-right: 0;
+}
+.img_qa{
+	vertical-align: middle;
+}
+.question_qa{
+	margin: 10px 0;
+    background-color: #aba5a5;
+}
+.answer_qa{
+	width: 95%;
+    margin: 0 0 15px;
+}
