@@ -785,3 +785,10 @@ p.text_right_depilation
 	margin: 5px auto;
 }
 /*end qa*/
+
+/*access*/
+.note_access{
+	width: 80%;
+    margin: 0 auto;
+    text-align: left; 
+}
