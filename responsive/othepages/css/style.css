@@ -2128,3 +2128,26 @@ h4.margin_top_depilation
 	width: 95%;
     margin: 0 0 15px;
 }
+/*end qa*/
+
+/*access*/
+.map_access{
+	width: 70%;
+	margin: 0 15%;
+}
+.img_map_access{
+	width: 100%;
+}
+.div_img_content_2_access{
+	width: 46%;
+	margin: 0 2% 50px ;
+}
+.img_around_access{
+	width: 90%;
+    margin: 0 auto;
+}
+.note_access{
+	width: 85%;
+    margin: 0 auto;
+    text-align: left; 
+}
