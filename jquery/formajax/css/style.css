@@ -1,0 +1,128 @@
+﻿@charset"UTF-8";
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* style calender */
+.table-item{
+	vertical-align: middle;
+	text-align: right;
+    font-weight: bold;
+	margin: 5px;
+}
+.error{
+	color: red;
+	font-weight: bold;
+}
+input{
+	height: 28px;
+    width: 274px;
+    border: 1px solid #03A9F4;
+    border-radius: 3px;
+	box-shadow: 0px 0px 10px #b2e0f5;
+	padding: 2px; 
+	margin: 5px;
+}
+.input-date{
+	padding: 2px 35px 2px 2px;
+	 width: 240px;
+}
+.icon-date{
+	margin-left: -39px;
+    vertical-align: middle;
+}
+.table-calender{
+	display: none;
+	margin: 10px 5px 5px;
+	box-shadow: 0px 0px 10px;
+    width: 218px;
+}
+table.table-calender td, th{
+	height: 26px;
+    width: 30px;
+    vertical-align: middle;
+    text-align: center;
+    border: 1px solid #b5b4b4;
+}
+.menu-item{
+	border: 1px solid gray;
+    background-color: #A9CCE3;
+    color: #2E86C1
+}
+select{
+	height: 100%;
+    width: 100%;
+}
+.weekdays{
+	background-color: #3498DB;
+    border-style: solid solid none solid;
+    border-color: #d6d3d3;
+    color: #5a5959;
+    font-size: 14px;
+    font-weight: bold;
+}
+.day{
+	background-color: white;
+}
+.not-day{
+	background-color: #D7DBDD;
+}
+.today{
+    background-color: #00ACE6;
+}
+.button{
+	width: 60px;
+    background-color: #2471A3;
+    color: white;
+    font-weight: bold;
+    border: 1px solid #03A9F4;
+    border-radius: 3px;
+    box-shadow: 0px 0px 10px #b2e0f5;
+    margin: 4px;
+    padding: 5px 5px;
+}

@@ -1,0 +1,29 @@
+@media screen and (max-width: 640px){
+	.table_item{
+		display: block;
+	}
+
+	/*header*/
+	.logo{
+		float: none;
+    	width: 100%;
+	}
+	.img_logo{
+		width: 90%;
+   		margin: 0 5%;
+	}
+	.contact{
+		float: none;
+    	width: 100%;
+    	text-align: center;
+	}
+	.phone{
+		width: initial;
+	}
+	/*end header*/
+	/*banner*/
+	.banner{
+		display: none;
+	}
+	/*end banner*/
+}

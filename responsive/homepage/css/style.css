@@ -1,0 +1,191 @@
+@charset "utf-8";
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption, tbody, tfoot, thead {border: 0;font-family: inherit;font-size: 100%;font-style: inherit;font-weight: inherit;margin: 0;outline: 0;padding: 0;}
+:focus {outline: 0;}
+
+ol, ul {list-style: none;}
+caption{font-weight: normal;text-align: left;}
+blockquote:before, blockquote:after,q:before, q:after {content: "";}
+blockquote, q {quotes: "" "";}
+a{ text-decoration:none; font-family:'Lucida Grande','Hiragino Kaku Gothic ProN',Meiryo, sans-serif;}
+a img {border: 0;}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display: block;}
+
+body{
+	font-size: 13px;
+    color: #73523f;
+    font-family: 'Lucida Grande','Hiragino Kaku Gothic ProN',Meiryo,sans-serif;
+    line-height: 1.6;
+}
+.table{
+	display: table;
+	width: 100%;
+}
+.table_item{
+	display: table-cell;
+}
+
+/*header*/
+.header{
+	border-top: 4px solid #FB9205;
+    padding: 0 10%;
+    width: 80%;
+}
+.text_header{
+	margin: 10px 0;
+}
+.logo{
+	margin-top: 10px;
+	float: left;
+    width: 76%;
+}
+.contact{
+	float: right;
+    width: 24%;
+    text-align: right;
+}
+.phone{
+	width: 80%;
+}
+.color_red{
+	color: red;
+}
+/*end header*/
+
+/*menu*/
+.menu{
+	border-bottom: 1px solid #b3b1b0;
+    border-top: 1px solid #b3b1b0;
+    background-color: #FBFBFD;
+    width: 80%;
+    padding: 0 10%;
+    margin: 15px 0 0;
+}
+.ul_menu{
+	background: url("../images/line_menu.jpg") no-repeat right center;
+    background-size: 1px 56px;
+}
+ul.subNav{
+    display: none;
+}
+li.menu_1,
+li.menu_2,
+li.menu_3,
+li.menu_4,
+li.menu_5,
+li.menu_6,
+li.menu_7{
+	width: 14.25%;
+	background: url("../images/line_menu.jpg") no-repeat left center;
+    background-size: 1px 56px;
+    vertical-align: bottom;
+}
+.img_menu{
+	vertical-align: bottom;
+    width: 85%;
+    height: 100%;
+    margin: 0 7.5%;
+}
+a.menu_1,
+a.menu_2,
+a.menu_3,
+a.menu_4,
+a.menu_5,
+a.menu_6,
+a.menu_7{
+	width: 100%;
+	display: block;
+	height: 53px;
+}
+a.menu_1:hover,
+a.menu_1:active,
+a.active{
+	background: url("../images/menu_1_hover.jpg") no-repeat center center;
+	background-size: 90%;
+}
+a.menu_2:hover,
+a.menu_2:active{
+	background: url("../images/menu_2_hover.jpg") no-repeat center center;
+	background-size: 90%;
+}
+a.menu_3:hover,
+a.menu_3:active{
+	background: url("../images/menu_3_hover.jpg") no-repeat center center;
+	background-size: 90%;
+}
+a.menu_4:hover,
+a.menu_4:active{
+	background: url("../images/menu_4_hover.jpg") no-repeat center center;
+	background-size: 90%;
+}
+a.menu_5:hover,
+a.menu_5:active{
+	background: url("../images/menu_5_hover.jpg") no-repeat center center;
+	background-size: 90%;
+}
+a.menu_6:hover,
+a.menu_6:active{
+	background: url("../images/menu_6_hover.jpg") no-repeat center center;
+	background-size: 90%;
+}
+a.menu_7:hover,
+a.menu_7:active{
+	background: url("../images/menu_7_hover.jpg") no-repeat center center;
+	background-size: 90%;
+}
+a.menu_1:active img.img_menu,
+a.menu_1:hover img.img_menu,
+a.menu_2:active img.img_menu,
+a.menu_2:hover img.img_menu,
+a.menu_3:active img.img_menu,
+a.menu_3:hover img.img_menu,
+a.menu_4:active img.img_menu,
+a.menu_4:hover img.img_menu,
+a.menu_5:active img.img_menu,
+a.menu_5:hover img.img_menu,
+a.menu_6:active img.img_menu,
+a.menu_6:hover img.img_menu,
+a.menu_7:active img.img_menu,
+a.menu_7:hover img.img_menu,
+a.active img.img_menu{
+	display: none;
+}
+div.menu li.menu_3:hover ul.subNav,
+div.menu li.menu_4:hover ul.subNav{
+	background: none repeat scroll 0 0 #ffc472;
+    display: block;
+    height: auto;
+    margin-left: -3px;
+    position: absolute;
+    top: auto;
+    width: 12%;
+    text-align: center;
+}
+a.subNav{
+	color: #73523f;
+}
+li.subNav{
+	border-bottom: 1px solid #c79d83;
+	width: 100%;
+	padding: 10px 0; 
+	font-size: 100%;
+}
+li.subNav_no_b{
+	border-bottom: 0;
+}
+li.subNav:hover{
+	background: url("../images/bg_menu_sub.jpg") no-repeat center center;
+	background-size: 90%;
+}
+li.subNav:hover a.subNav{
+	color: white;
+}
+/*end menu*/
+
+/*banner*/
+.banner{
+	display: block;
+	background: url("../images/bg_banner.jpg") repeat-x left top;
+	padding: 0 6%;
+	width: 88%;
+}
