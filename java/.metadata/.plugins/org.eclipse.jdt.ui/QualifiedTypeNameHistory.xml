@@ -3,4 +3,6 @@
 <fullyQualifiedTypeName name="Animal"/>
 <fullyQualifiedTypeName name="Dog"/>
 <fullyQualifiedTypeName name="Cat"/>
+<fullyQualifiedTypeName name="Runtime.Animal"/>
+<fullyQualifiedTypeName name="Runtime.BabyCat"/>
 </qualifiedTypeNameHistroy>

@@ -1,0 +1,6 @@
+package Runtime;
+public class Animal {
+	public void gioiThieu() {
+		System.out.println("dong vat");
+	}
+}

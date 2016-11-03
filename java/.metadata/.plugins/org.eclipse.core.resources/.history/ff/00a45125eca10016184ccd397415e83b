@@ -1,0 +1,11 @@
+package Runtime;
+public class Cat extends Animal{
+	public void gioiThieu() {
+		System.out.println("meo");
+	}
+	public static void main(String[] args) {
+		Animal animal = new Cat(); //upscasting
+		animal.gioiThieu();
+	}
+}
+
