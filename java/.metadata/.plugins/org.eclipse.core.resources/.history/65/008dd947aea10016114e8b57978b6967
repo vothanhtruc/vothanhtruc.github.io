@@ -1,0 +1,6 @@
+
+public class Animal {
+	public void msg() {
+		System.out.println("msg A");
+	}
+}

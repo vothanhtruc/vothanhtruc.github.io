@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move 3 elements to &apos;DemoInheritance/src/ClassExtendsMultiClass&apos;&#x0D;&#x0A;- Original project: &apos;DemoInheritance&apos;&#x0D;&#x0A;- Destination element: &apos;DemoInheritance/src/ClassExtendsMultiClass&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     DongVat.java&#x0D;&#x0A;     Heo.java&#x0D;&#x0A;     GiaSuc.java&#x0D;&#x0A;- Update references to refactored element" description="Move compilation units" destination="/src&lt;ClassExtendsMultiClass" element1="/src&lt;{DongVat.java" element2="/src&lt;{Heo.java" element3="/src&lt;{GiaSuc.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1478170860179" units="3" version="1.0"/>
+</session>
