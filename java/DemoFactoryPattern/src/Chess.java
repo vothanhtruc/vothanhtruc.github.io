@@ -1,0 +1,7 @@
+
+public class Chess extends Toy {
+	@Override
+	public void setAgeLimit() {
+		System.out.println("Trên 12 tuoi");
+	}
+}

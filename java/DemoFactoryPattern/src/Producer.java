@@ -1,0 +1,11 @@
+
+public abstract class Producer {
+	public abstract Toy getToy();
+
+	public void intro() {
+		Toy toy = getToy();
+		toy.setAgeLimit();
+	}
+}
+
+

@@ -1,0 +1,8 @@
+
+public class Client {
+	public static void main(String[] args) {
+		String[] nameList = { " nguyen van a ", " tran van b ", " luong thanh c " };
+		IListName name = new ListNameImpl(new Name());
+		name.showListName(nameList);
+	}
+}

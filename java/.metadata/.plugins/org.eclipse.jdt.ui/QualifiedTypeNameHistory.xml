@@ -5,4 +5,13 @@
 <fullyQualifiedTypeName name="Cat"/>
 <fullyQualifiedTypeName name="Runtime.Animal"/>
 <fullyQualifiedTypeName name="Runtime.BabyCat"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="Name"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="IListName"/>
+<fullyQualifiedTypeName name="ListNameImpl"/>
+<fullyQualifiedTypeName name="java.lang.Object"/>
+<fullyQualifiedTypeName name="Container"/>
+<fullyQualifiedTypeName name="ListStudentImpl"/>
+<fullyQualifiedTypeName name="Interator"/>
 </qualifiedTypeNameHistroy>
