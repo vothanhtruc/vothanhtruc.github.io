@@ -1,0 +1,26 @@
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+
+public class DemoLinkedList {
+	public static void main(String[] args) {
+		LinkedList linkedList = new LinkedList<>();
+		linkedList.add("1");
+		linkedList.add("4");
+		linkedList.add("5");
+		linkedList.add(2, "2");
+		System.out.println("ArrayList: " + linkedList);
+		System.out.println("So phan tu: " + linkedList.size());
+		System.out.println("Chua phan tu 2: " + linkedList.contains("2"));
+		System.out.println("Lay phan tu dung thu 3: " + linkedList.get(3));
+		System.out.println("Phan tu 4 dung thu: " + linkedList.indexOf("4"));
+		linkedList.removeFirst();
+		linkedList.removeLast();
+		System.out.println("Xoa phan tu dau va cuoi mang con: " + linkedList);
+		Object val = linkedList.get(1);
+		linkedList.set(1, (String) val + " Dathaydoi");
+		System.out.println("Thay phan tu thu 1: " + linkedList);
+		linkedList.clear();
+		System.out.println("Xoa mang: " + linkedList);
+	}
+}
