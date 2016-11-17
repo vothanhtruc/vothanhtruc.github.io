@@ -1,0 +1,13 @@
+import java.util.*;
+
+public class DemoHashSet {
+	public static void main(String[] args) {
+		Set demoSet = new HashSet<>();
+		demoSet.add(5);
+		demoSet.add(2);
+		demoSet.add(9);
+		demoSet.add(1);
+		System.out.println(demoSet);
+		System.out.println("Mang chua phan tu 4: " + demoSet.contains(4));
+	}
+}

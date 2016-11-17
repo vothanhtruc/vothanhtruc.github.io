@@ -1,0 +1,29 @@
+import java.util.*;
+import java.util.Map.Entry;
+
+public class DemoMap {
+	public static void main(String[] args) {
+		Map nameList = new HashMap<>();
+		nameList.put("a5", "nguyen van sao vang");
+		nameList.put("a3", "tran thi co bay");
+		nameList.put(4, "huynh thi phap phoi");
+		nameList.put(1, "nguyen thi lum lon");
+		nameList.put(2, "truong thi luu dan");
+		System.out.println(nameList);
+		// Map nameTreeMap = new TreeMap<>();
+		// nameTreeMap.putAll(nameList);
+		Set set = nameList.entrySet();
+		Iterator interator = set.iterator();
+		Map.Entry me = null;
+		int index = 6;
+		if (index <= (set.size())) {
+			for (int i = 0; i < index; i++) {
+				me = (Map.Entry) interator.next();
+			}
+			System.out.println("Phan tu thu " + index + " trong mang: " + me.getKey() + ": " + me.getValue());
+		} else {
+			System.out.println(index + " lon hon so phan tu trong mang");
+		}
+
+	}
+}

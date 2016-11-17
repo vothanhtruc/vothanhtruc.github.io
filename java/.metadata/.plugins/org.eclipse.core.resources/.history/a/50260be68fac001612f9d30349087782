@@ -1,0 +1,20 @@
+import java.util.*;
+
+public class DemoCollection {
+	public static void main(String[] args) {
+		List demoList = new ArrayList<>();
+		demoList.add("demo add");
+		demoList.add(true);
+		demoList.add(3);
+		demoList.add(true);
+		System.out.println("List: " + demoList);
+
+		Set demoSet = new HashSet<>();
+		demoSet.add("8");
+		demoSet.add('a');
+		demoSet.add("3");
+		demoSet.add(4);
+		demoSet.add(5);
+		System.out.println("Set: " + demoSet);
+	}
+}

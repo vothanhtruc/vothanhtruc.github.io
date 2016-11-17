@@ -1,0 +1,14 @@
+import java.util.*;
+
+public class DemoVector {
+	public static void main(String[] args) {
+		Vector vector = new Vector(3, 2);
+		vector.addElement("a");
+		vector.addElement("c");
+		vector.addElement("e");
+		System.out.println("Capacity: " + vector.capacity());
+		vector.addElement("b");
+		vector.addElement("d");
+		vector.addElement("f");
+	}
+}

@@ -1,0 +1,30 @@
+import java.util.*;
+
+public class DemoCollection {
+	public static void main(String[] args) {
+		List demoList = new ArrayList<>();
+		demoList.add("demo add");
+		demoList.add(true);
+		demoList.add(3);
+		demoList.add(true);
+		System.out.println("List: " + demoList);
+
+		Map demoSet = new HashMap<>();
+		((List) demoSet).add("nguyen van a");
+		System.out.println("Set1: " + demoSet);
+		((List) demoSet).add(true);
+		System.out.println("Set2: " + demoSet);
+		((List) demoSet).add(3);
+		System.out.println("Set3: " + demoSet);
+		((List) demoSet).add(true);
+		System.out.println("Set4: " + demoSet);
+		((List) demoSet).add(false);
+		System.out.println("Set5: " + demoSet);
+		((List) demoSet).add("truesassq");
+		System.out.println("Set6: " + demoSet);
+		((List) demoSet).add("6");
+		System.out.println("Set7: " + demoSet);
+		((List) demoSet).add(8);
+		System.out.println("Set8: " + demoSet);
+	}
+}

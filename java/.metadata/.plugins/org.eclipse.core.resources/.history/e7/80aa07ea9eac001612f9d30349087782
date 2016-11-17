@@ -1,0 +1,19 @@
+import java.util.*;
+
+
+import javax.swing.text.html.HTMLDocument.Iterator;
+
+public class DemoMap {
+	public static void main(String[] args) {
+		Map nameList = new HashMap<>();
+		nameList.put(5, "nguyen van sao vang");
+		nameList.put(3, "tran thi co bay");
+		nameList.put(4, "huynh thi phap phoi");
+		nameList.put(1, "nguyen thi lum lon");
+		nameList.put(2, "truong thi luu dan");
+		System.out.println(nameList);
+		Set set = nameList.entrySet();
+		Iterator interator = (Iterator) set.iterator();
+		Map.Entry me = 
+	}
+}

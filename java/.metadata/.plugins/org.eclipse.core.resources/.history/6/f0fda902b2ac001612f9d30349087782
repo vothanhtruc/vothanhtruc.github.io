@@ -1,0 +1,7 @@
+import java.util.*;
+
+public class DemoVector {
+	public static void main(String[] args) {
+		DemoVector vector = new DemoVector(3, 2);
+	}
+}
